@@ -2,4 +2,4 @@
 .build
 node_modules
 assets/vendor
-config.*.json
+/config.*.json
