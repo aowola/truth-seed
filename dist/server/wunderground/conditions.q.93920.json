@@ -1,0 +1,92 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Big Sur, CA",
+		"city":"Big Sur",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93920",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"36.13717651",
+		"longitude":"-121.65656281",
+		"elevation":"0.00000000"
+		},
+		"observation_location": {
+		"full":"Cachagua, Carmel Valley, California",
+		"city":"Cachagua, Carmel Valley",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"36.399166",
+		"longitude":"-121.652496",
+		"elevation":"850 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCACARME11",
+		"observation_time":"Last Updated on March 11, 10:15 AM PDT",
+		"observation_time_rfc822":"Tue, 11 Mar 2014 10:15:05 -0700",
+		"observation_epoch":"1394558105",
+		"local_time_rfc822":"Tue, 11 Mar 2014 10:24:58 -0700",
+		"local_epoch":"1394558698",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Clear",
+		"temperature_string":"53.4 F (11.9 C)",
+		"temp_f":53.4,
+		"temp_c":11.9,
+		"relative_humidity":"79%",
+		"wind_string":"From the East at 1.6 MPH Gusting to 1.6 MPH",
+		"wind_dir":"East",
+		"wind_degrees":90,
+		"wind_mph":1.6,
+		"wind_gust_mph":"1.6",
+		"wind_kph":2.6,
+		"wind_gust_kph":"2.6",
+		"pressure_mb":"1020",
+		"pressure_in":"30.13",
+		"pressure_trend":"-",
+		"dewpoint_string":"47 F (8 C)",
+		"dewpoint_f":47,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"53.4 F (11.9 C)",
+		"feelslike_f":"53.4",
+		"feelslike_c":"11.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"3","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Big_Sur.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCACARME11",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=36.399166,-121.652496"
+	}
+}

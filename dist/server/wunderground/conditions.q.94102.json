@@ -1,0 +1,92 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94102",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.77980423",
+		"longitude":"-122.41735840",
+		"elevation":"19.00000000"
+		},
+		"observation_location": {
+		"full":"SOMA - Near Van Ness, San Francisco, California",
+		"city":"SOMA - Near Van Ness, San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.773285",
+		"longitude":"-122.417725",
+		"elevation":"49 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR58",
+		"observation_time":"Last Updated on March 11, 10:28 AM PDT",
+		"observation_time_rfc822":"Tue, 11 Mar 2014 10:28:01 -0700",
+		"observation_epoch":"1394558881",
+		"local_time_rfc822":"Tue, 11 Mar 2014 10:28:21 -0700",
+		"local_epoch":"1394558901",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Partly Cloudy",
+		"temperature_string":"61.2 F (16.2 C)",
+		"temp_f":61.2,
+		"temp_c":16.2,
+		"relative_humidity":"32%",
+		"wind_string":"From the NNW at 3.0 MPH",
+		"wind_dir":"NNW",
+		"wind_degrees":332,
+		"wind_mph":3.0,
+		"wind_gust_mph":0,
+		"wind_kph":4.8,
+		"wind_gust_kph":0,
+		"pressure_mb":"1021",
+		"pressure_in":"30.15",
+		"pressure_trend":"+",
+		"dewpoint_string":"31 F (-0 C)",
+		"dewpoint_f":31,
+		"dewpoint_c":-0,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"61.2 F (16.2 C)",
+		"feelslike_f":"61.2",
+		"feelslike_c":"16.2",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"2","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725"
+	}
+}

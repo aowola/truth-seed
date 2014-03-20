@@ -1,13 +1,13 @@
 {
   "name": "truth-seed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "public" : {
     "${development}":".build",
     "${production}":"static"
   },
   "port" : { 
     "${development}": 9001,
-    "${production}": 9210 
+    "${production}": 9001 
   },
   "compress" : true,
   "proxies": [
