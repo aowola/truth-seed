@@ -1,0 +1,17 @@
+<section class="tl-weather">
+  <article class="tl-weather-current" data-ng-if="mode === 'current'">
+    <p class="tl-temperature"><span class="tl-value tl-font-xxxlarge" data-ng-bind="weather.current[units]"></span><span class="tl-degrees tl-font-xxlarge tl-{{units}}"></span></p>
+    <p class="tl-location"><span class="tl-city tl-font-xlarge" data-ng-bind="weather.location.city"></span><span class="tl-state tl-font-large" data-ng-bind="weather.location.state_name"></span></p>
+  </article>
+  <article class="tl-weather-forecast" data-ng-if="mode === 'five-day'" data-ng-animate="'animate'">
+    <ul class="tl-forecast">
+      <li data-ng-repeat="period in weather | limitTo:5">
+        <div class="tl-center-align-col">
+          <p class="tl-weekday-abr" data-ng-bind="period.weekday"></p>
+          <img class="tl-forcast-icon" data-ng-src="img/{{period.icon}}.svg" />
+          <p class="tl-temperature"><span class="tl-value tl-font-large" data-ng-bind="period.high[units]"></span><span class="tl-degrees tl-{{units}}"></span></p>
+        </div>
+      </li>
+    </ul>
+  </article>
+</section>

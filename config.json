@@ -1,0 +1,27 @@
+{
+  "name": "truth-seed",
+  "version": "0.0.0",
+  "public" : {
+    "${development}":".build",
+    "${production}":"static"
+  },
+  "port" : { 
+    "${development}": 9001,
+    "${production}": 9210 
+  },
+  "compress" : true,
+  "proxies": [
+    {
+      "method": "get",
+      "route": "/weather/*",
+      "config": {
+        "api-key": {
+          "${development}": "",
+          "${production}": ""
+        },
+        "no-api-key": "wunderground",
+        "target": "http://api.wunderground.com:80/api/{api-key}/"
+      }
+    }
+  ]
+}

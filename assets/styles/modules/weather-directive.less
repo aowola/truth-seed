@@ -1,0 +1,96 @@
+.tl-weather {
+  margin: 0 50px;
+  margin-top: 75px;
+  
+  .tl-temperature {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .tl-degrees {
+      content: " ";
+      &:before {
+        content:@degree;
+      }
+    }
+    
+    .tl-fahrenheit:after {
+      content:'F';
+    }
+    
+    .tl-celsius:after {
+      content:'C';
+    }
+  }
+
+  .tl-location {
+    vertical-align: middle;
+    .tl-city {
+      font-weight:lighter;
+      text-transform: uppercase;
+      &:after {
+        content:"|";
+        padding: 0 0.33em;
+      }
+    }
+    .tl-state {
+      /* 16 * 0.125 = 2px */
+      letter-spacing: 0.125rem;
+      text-transform: uppercase;
+    }
+  }
+  .tl-weather-current {
+    .tl-temperature {
+      & > span {
+        display: block;
+      }
+      .tl-value {
+        line-height:13rem;
+        margin-top: -1.5rem;
+        margin-left: -0.5rem;
+        font-weight:lighter;
+      }
+      .tl-degrees {
+        line-height:5rem;
+        font-weight:lighter;
+      }
+    }
+  }
+
+  .tl-weather-forecast {
+    .tl-forecast {
+      margin: 0;
+      padding: 0;
+      list-style: none; 
+      margin-left: -30px;
+      
+      & > li {
+        list-style: none;
+        margin:0 20px 0 0;
+        display: inline-block;
+      } 
+    }
+    .tl-weekday-abr {
+      text-transform:uppercase;
+      letter-spacing: 0.065rem;
+    }
+    .tl-forcast-icon {
+      width: 48px;
+      height: 48px;
+    }
+    .tl-temperature {
+      .tl-value {
+        margin-top: 0.1rem;
+      }
+      .tl-degrees {
+        margin-left:0.25rem;
+        font-weight:lighter;
+        &:after {
+          margin-left:0.10rem;
+        }
+      }
+    }
+  }
+}

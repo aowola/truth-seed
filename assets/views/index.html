@@ -1,0 +1,33 @@
+<!doctype html>
+<!--(if target build)><!-->
+<html lang="en" xmlns:ng="http://angularjs.org" xmlns:tl="http://truthlabs.com/schema/2014/02" id="ng-app" class="ns">
+<!--<!(endif)-->
+<!--(if target dist)><!-->
+<html lang="en" manifest="manifest.appcache" xmlns:ng="http://angularjs.org" xmlns:tl="http://truthlabs.com/schema/2014/02" id="ng-app" class="ns">
+<!--<!(endif)-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Truth Labs - Angular Seed</title>
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/logo.72x72.jpg"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/logo.114x114.jpg"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/logo.120x120.jpg"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/logo.152x152.jpg"/>
+    <link rel="icon" type="image/ico" href="icons/favicon.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <meta name="fragment" content="!" />
+    <base href="/" />
+    <!--(if target build)><!-->
+    <script src="//localhost:35729/livereload.js"></script>
+    <!--<!(endif)-->
+  </head>
+  <body>
+    <div data-ng-view></div>
+    <script src="scripts/vendor/require.js" data-main="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<div>
+  <div class="tl-menu-container" data-ng-include="'partials/menu.html'"></div>
+  <tl:parallax class="tl-menu-animate-layer" data-src="settings.parallax.src" data-ng-click="menu.isactive = false;" data-easing="settings.parallax.easing" data-limit="settings.parallax.limit">
+    <div class="tl-header-container" data-ng-include="'partials/header.html'"></div>
+    <tl:weather class="tl-weather-current" data-zipcode="settings.zipcode" data-mode="'current'" data-units="settings.units"></tl:weather>
+    <tl:weather class="tl-weather-five-day" data-zipcode="settings.zipcode" data-mode="'five-day'" data-units="settings.units"></tl:weather>
+  </tl:parallax>
+</div>
